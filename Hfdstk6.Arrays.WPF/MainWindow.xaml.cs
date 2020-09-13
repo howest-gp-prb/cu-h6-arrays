@@ -68,5 +68,44 @@ namespace Hfdstk6.Arrays.WPF
 
             MessageBox.Show(kaaprenVaarders);
         }
+
+        private void btnWerkdagen_Click(object sender, RoutedEventArgs e)
+        {
+            string[,] dagenVanDeWeek = new string[7, 3];
+            dagenVanDeWeek[0, 0] = "maandag";
+            dagenVanDeWeek[1, 0] = "dinsdag";
+            dagenVanDeWeek[2, 0] = "woensdag";
+            dagenVanDeWeek[3, 0] = "donderdag";
+            dagenVanDeWeek[4, 0] = "vrijdag";
+            dagenVanDeWeek[5, 0] = "zaterdag";
+            dagenVanDeWeek[6, 0] = "zondag";
+
+            dagenVanDeWeek[0, 1] = "09:00";
+            dagenVanDeWeek[1, 1] = "08.00";
+            dagenVanDeWeek[2, 1] = "08:00";
+            dagenVanDeWeek[3, 1] = "08:00";
+            dagenVanDeWeek[4, 1] = "08:00";
+            dagenVanDeWeek[5, 1] = "";
+            dagenVanDeWeek[6, 1] = "";
+
+            dagenVanDeWeek[0, 2] = "18:00";
+            dagenVanDeWeek[1, 2] = "17.00";
+            dagenVanDeWeek[2, 2] = "12:00";
+            dagenVanDeWeek[3, 2] = "17:00";
+            dagenVanDeWeek[4, 2] = "16:00";
+            dagenVanDeWeek[5, 2] = "";
+            dagenVanDeWeek[6, 2] = "";
+
+            string tekst = "";
+            for (int rij = 0; rij < 7; rij++)
+            {
+                tekst += $"Op {dagenVanDeWeek[rij, 0]} werk ik "
+                    + $"van {dagenVanDeWeek[rij, 1] } "
+                    + $"tot {dagenVanDeWeek[rij, 2]} \n";
+            }
+            MessageBox.Show(tekst);
+
+
+        }
     }
 }
