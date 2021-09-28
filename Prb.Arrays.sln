@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hfdstk6.Arrays.WPF", "Hfdstk6.Arrays.WPF\Hfdstk6.Arrays.WPF.csproj", "{1D6B0E04-3607-4A08-A7D0-D6525A3BB6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prb.Arrays.Wpf", "Prb.Arrays.Wpf\Prb.Arrays.Wpf.csproj", "{054B7751-0C73-4FDE-AC0C-9E0B1B67075E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D6B0E04-3607-4A08-A7D0-D6525A3BB6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D6B0E04-3607-4A08-A7D0-D6525A3BB6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D6B0E04-3607-4A08-A7D0-D6525A3BB6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D6B0E04-3607-4A08-A7D0-D6525A3BB6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054B7751-0C73-4FDE-AC0C-9E0B1B67075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054B7751-0C73-4FDE-AC0C-9E0B1B67075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054B7751-0C73-4FDE-AC0C-9E0B1B67075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054B7751-0C73-4FDE-AC0C-9E0B1B67075E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
